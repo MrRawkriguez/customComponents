@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client'
+// import { Fragment } from "react"
 import './index.css'
 import App from './App.jsx'
 import logo from './assets/react.svg'
@@ -8,6 +9,8 @@ const root = createRoot(document.getElementById('root'))
 
 function Page() {
   return (
+
+    //<Fragment>
     <>
       <header>
         <img src={logo} className='react-logo' alt='logo' width={"60px"}></img>
@@ -24,6 +27,7 @@ function Page() {
         <small>© 2024 Rawkriguez development. All rights reserved.</small>
       </footer>
     </>
+    //</Fragment>
   )
 }
 
